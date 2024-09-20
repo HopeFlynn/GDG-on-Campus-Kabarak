@@ -44,8 +44,13 @@ Contributions are welcome! To get started, follow these steps:
    ```bash
     git clone https://github.com/HopeFlynn/GDG-on-Campus-Kabarak.git
 
+# Demo 
+
+![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
+
  # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
+# Contact
+If you have any questions, feel free to open an issue or contact us at googledsc@kabarak.ac.ke
 
