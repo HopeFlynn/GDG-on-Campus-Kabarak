@@ -15,5 +15,22 @@ As the lead of GDG on Campus Kabarak, I’ve developed a website that explains m
 
 **Built with SCSS:** Modular and maintainable CSS structure.
 
+# Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HopeFlynn/GDG-on-Campus-Kabarak.git
+
+2. Navigate to the project directory:
+cd GDG KABU
+
+3.Install dependencies:
+npm install
+
+4.Open the project in your browser: 
+You can open the index.html file directly in your browser or use a local development server like Live Server in VS Code.
+
 ![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
 
