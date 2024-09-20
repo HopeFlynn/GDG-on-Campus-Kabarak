@@ -49,7 +49,8 @@ Contributions are welcome! To get started, follow these steps:
 ![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
 
  # License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE)
+LICENSE file for more details.
 
 # Contact
 If you have any questions, feel free to open an issue or contact us at googledsc@kabarak.ac.ke
