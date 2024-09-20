@@ -49,7 +49,7 @@ Contributions are welcome! To get started, follow these steps:
 ![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
 
  # License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE)
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/LICENSE)
 LICENSE file for more details.
 
 # Contact
