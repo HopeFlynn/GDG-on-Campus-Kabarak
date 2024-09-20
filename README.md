@@ -32,5 +32,20 @@ npm install
 4.Open the project in your browser: 
 You can open the index.html file directly in your browser or use a local development server like Live Server in VS Code.
 
+# Contributing
+
+Contributions are welcome! To get started, follow these steps:
+
+1. **Fork the repository**:  
+   Click the "Fork" button at the top-right of this repository to create a copy under your GitHub account.
+
+2. **Clone your forked repository**:  
+   Use the following command to clone your forked repo to your local machine:
+   ```bash
+    git clone https://github.com/HopeFlynn/GDG-on-Campus-Kabarak.git
+
+ #License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
 ![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
 
