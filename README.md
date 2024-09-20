@@ -44,7 +44,7 @@ Contributions are welcome! To get started, follow these steps:
    ```bash
     git clone https://github.com/HopeFlynn/GDG-on-Campus-Kabarak.git
 
- #License
+ # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ![About Us](https://github.com/HopeFlynn/GDG-on-Campus-Kabarak/blob/main/About%20us.png)
