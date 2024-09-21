@@ -214,6 +214,20 @@
     }
 
 }
+@media (max-width: 767px) {
+    .navbar-brand h1 {
+        font-size: 1.2rem; /* Reduce font size on smaller screens */
+    }
+    .navbar {
+        padding: 10px; /* Adjust padding */
+    }
+}
+@media (max-width: 767px) {
+    h1, h2, h3, p {
+        font-size: 1.2rem; /* Adjust heading and paragraph sizes for mobile */
+    }
+}
+
 
 .navbar .navbar-toggler {
     padding: 8px 15px;
