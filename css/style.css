@@ -19,6 +19,65 @@
 .header, .container {
     background-color: transparent; /* Ensure they are not overriding the background color */
 }
+/* Base styles for larger screens */
+body {
+    font-size: 16px; /* Default font size */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Media query for phone screens */
+@media (max-width: 768px) {
+    /* Adjust font size for the whole body */
+    body {
+        font-size: 12px;  /* Smaller font size for mobile screens */
+        line-height: 1.5; /* Adjust line height for better readability */
+    }
+
+    /* Reduce padding/margin for better spacing on small screens */
+    .container, .container-fluid {
+        padding: 0 15px;  /* Reduce container padding */
+        margin: 0 auto;
+    }
+
+    /* Adjust font size for headings */
+    h1 {
+        font-size: 1.5rem;  /* Smaller font size for phones */
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Adjust paragraph font size */
+    p {
+        font-size: 1rem;  /* Make paragraphs slightly smaller */
+    }
+
+    /* Adjust navbar font size and padding */
+    .nav-link {
+        font-size: 0.9rem;  /* Smaller font for nav links */
+        padding: 8px 15px;  /* Adjust padding for nav items */
+    }
+
+    /* Reduce padding and margin for sections */
+    section {
+        padding: 15px 0;  /* Less padding between sections */
+    }
+
+    /* Adjust general container padding */
+    .content {
+        padding: 10px 20px;  /* Reduce padding inside content sections */
+    }
+
+    /* Adjust footer font size */
+    footer {
+        font-size: 0.8rem;  /* Smaller footer text */
+    }
+}
 
 
 .back-to-top {
@@ -242,13 +301,41 @@
         height: auto;
     }
 }
-
-
-.navbar .navbar-toggler {
-    padding: 8px 15px;
-    color: var(--bs-dark);
-    background: var(--bs-dark);
+/* Burger icon */
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
 }
+
+.burger-icon div {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+/* No transformation on active state */
+.burger-icon.active .line1,
+.burger-icon.active .line2,
+.burger-icon.active .line3 {
+    background-color: #000; /* Keep lines black, no rotation */
+}
+
+/* Hide the navbar collapse initially */
+.navbar-collapse {
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+/* Show the menu when active */
+.navbar-collapse.active {
+    display: block;
+}
+
 
 /*** Navbar End ***/
 

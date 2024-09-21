@@ -96,4 +96,13 @@
 
 
 })(jQuery);
+document.getElementById('burgerMenu').addEventListener('click', function () {
+    const burgerIcon = document.querySelector('.burger-icon');
+    const menu = document.getElementById('navbarCollapse');
+    
+    // Toggle active class
+    burgerIcon.classList.toggle('active');
+    menu.classList.toggle('active');
+});
+
 

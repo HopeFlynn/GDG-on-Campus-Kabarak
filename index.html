@@ -63,13 +63,11 @@
         </div>
         <!-- Topbar End -->
 
-
         <!-- Navbar & Hero Start -->
+
         <div class="container-fluid sticky-top px-0">
             <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;"></div>
-
-            </div>
-            <div class="container px-0" >
+            <div class="container px-0">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 px-4" style="border-radius: 15px;">
                     <a href="index.html" class="navbar-brand p-0">
                         <h1 class="text-primary m-0">
@@ -77,8 +75,12 @@
                             GDG on Campus Kabarak
                         </h1>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="navbar-fab fas fa-sort-down" style="color: white;"></span>
+                    <button class="navbar-toggler" type="button" id="burgerMenu" >
+                        <span class="burger-icon" style="color:var(--bs-dark);">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav ms-auto">
@@ -100,9 +102,10 @@
                         </ul>
                     </div>
                 </nav>
-                
             </div>
         </div>
+        
+      
         <!-- Navbar & Hero End -->
 
        
