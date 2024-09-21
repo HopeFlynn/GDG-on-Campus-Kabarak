@@ -1,0 +1,42 @@
+# Ignore node_modules and any third-party libraries installed via a package manager
+/lib/
+
+
+# Ignore log files (commonly generated during development)
+/*.log
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+
+# Ignore specific editor/IDE config files (for VSCode)
+.vscode/
+
+# Ignore system-specific files (macOS and Windows)
+/.DS_Store
+Thumbs.db
+
+# If you use environment variables for local development, ignore .env files
+.env
+.env.local
+
+# Ignore cache directories (if applicable)
+/.cache/
+/dist/
+
+# If you have a README with build instructions, ignore README backups
+*.bak.txt
+
+
+# Ignore Git-specific files for submodules or merge resolution
+*.orig
+
+# Ignore compressed files (ZIPs, tarballs, etc.)
+*.zip
+*.tar.gz
+
+# Ignore configuration files for specific tools (if you use specific plugins/tools)
+config.php
+
+# Ignore images or media files if they are added dynamically (adjust based on project needs)
+img/
