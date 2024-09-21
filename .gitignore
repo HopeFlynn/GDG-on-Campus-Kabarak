@@ -38,5 +38,4 @@ Thumbs.db
 # Ignore configuration files for specific tools (if you use specific plugins/tools)
 config.php
 
-# Ignore images or media files if they are added dynamically (adjust based on project needs)
-img/
+
