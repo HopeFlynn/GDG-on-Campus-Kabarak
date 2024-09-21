@@ -227,6 +227,21 @@
         font-size: 1.0rem; /* Adjust heading and paragraph sizes for mobile */
     }
 }
+@media (max-width: 767px) {
+    .navbar {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 5px; /* Reduce space between navbar items */
+    }
+}
+@media (max-width: 767px) {
+    .hero img {
+        width: 100%; /* Ensure full width of container */
+        height: auto;
+    }
+}
 
 
 .navbar .navbar-toggler {
