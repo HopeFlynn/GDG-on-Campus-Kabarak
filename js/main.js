@@ -9,7 +9,7 @@
             }
         }, 1);
     };
-    spinner(0);    
+    spinner(0);  
     
     // Initiate the wowjs
     new WOW().init();
@@ -42,7 +42,6 @@
             '<i class="bi bi-arrow-right"></i>'
         ]
     });
-
     // Project carousel
     $(".project-carousel").owlCarousel({
         autoplay: true,
