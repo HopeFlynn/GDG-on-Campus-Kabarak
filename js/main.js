@@ -9,12 +9,10 @@
             }
         }, 1);
     };
-    spinner(0);
-    
+    spinner(0);    
     
     // Initiate the wowjs
     new WOW().init();
-
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -28,7 +26,6 @@
             $('.sticky-top .container').addClass('shadow-sm').css('max-width', '100%');
         }
     });
-
 
     // Hero Header carousel
     $(".header-carousel").owlCarousel({
@@ -45,8 +42,6 @@
             '<i class="bi bi-arrow-right"></i>'
         ]
     });
-
-
 
     // Project carousel
     $(".project-carousel").owlCarousel({
