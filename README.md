@@ -1,6 +1,6 @@
 # GDG on Campus - Kabarak
 
-As the lead of **GDG on Campus - Kabarak**, I have developed a website that explains more about the community. The organizers' profiles are incomplete pending the selection of co-leads. Once the selection if finalized, I will update their profiles.
+As the lead of **GDG on Campus - Kabarak**, I have developed a website that explains more about the community. The organizers' profiles are incomplete pending the selection of co-leads. Once the selection is finalized, I will update their profiles.
 
 ## Screenshots 
 
