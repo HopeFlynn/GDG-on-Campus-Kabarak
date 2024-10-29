@@ -558,7 +558,6 @@ body {
 }
 /*** Single Page Hero Header End ***/
 
-
 /*** About Start ***/
 .about .text {
     position: relative;
@@ -767,7 +766,6 @@ body {
     border: 8px solid var(--bs-primary);
 }
 /*** Project End ***/
-
 
 /*** Team Start ***/
 .team .team-item {
@@ -983,7 +981,6 @@ body {
 }
 
 /*** FAQ'S End ***/
-
 
 /*** Footer Start ***/
 .footer {
